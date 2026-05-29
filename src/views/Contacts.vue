@@ -16,7 +16,7 @@
       <!-- Card 1: Safaris -->
       <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30 group">
         <div class="overflow-hidden h-48 border-b-2 border-green-600">
-          <img src="https://ellamckendrick.com" alt="Unforgettable Safaris" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+          <img src="/src/assets/images/Wildlife.png" alt="Unforgettable Safaris" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
         </div>
         <div class="p-8">
           <h3 class="text-2xl font-bold mb-3">Unforgettable Safaris</h3>
@@ -32,7 +32,7 @@
       <!-- Card 2: Custom Packages -->
       <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30 group">
         <div class="overflow-hidden h-48 border-b-2 border-green-600">
-          <img src="https://silverbacktour.com" alt="Custom Packages" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+          <img src="/INYAMBO.jpg" alt="Custom Packages" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
         </div>
         <div class="p-8">
           <h3 class="text-2xl font-bold mb-3">Custom Packages</h3>
@@ -48,7 +48,7 @@
       <!-- Card 3: Local Assistance -->
       <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30 group">
         <div class="overflow-hidden h-48 border-b-2 border-green-600">
-          <img src="https://visitandtourrwanda.com" alt="Local Assistance" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+          <img src="/src/assets/images/Rwanda.png" alt="Local Assistance" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
         </div>
         <div class="p-8">
           <h3 class="text-2xl font-bold mb-3">Local Assistance</h3>

@@ -15,7 +15,7 @@
       
       <!-- Card 1: Safaris -->
       <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <img src="https://placehold.co" alt="Safari Experience" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <img src="/src/assets/images/Wildlife.png" alt="Safari Experience" class="w-full h-48 object-cover border-b-2 border-green-600" />
         <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Unforgettable Safaris</h3>
           <p class="text-sm text-green-800 font-medium">Experience majestic wildlife encounters, gorilla trekking adventures, and breathtaking landscapes across Rwanda's finest national parks.</p>
@@ -29,7 +29,7 @@
 
       <!-- Card 2: Custom Packages -->
       <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <img src="https://placehold.co" alt="Custom Packages" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <img src="/INYAMBO.jpg" alt="Custom Packages" class="w-full h-48 object-cover border-b-2 border-green-600" />
         <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Custom Packages</h3>
           <p class="text-sm text-green-800 font-medium">Tailor-made itineraries designed specifically for your schedule, budget, and travel desires to create your perfect dream vacation.</p>
@@ -43,7 +43,7 @@
 
       <!-- Card 3: Local Assistance -->
       <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <img src="https://placehold.co" alt="Local Assistance" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <img src="/src/assets/images/Rwanda.png" alt="Local Assistance" class="w-full h-48 object-cover border-b-2 border-green-600" />
         <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Local Assistance</h3>
           <p class="text-sm text-green-800 font-medium">Navigate Rwanda with ease. Our dedicated on-the-ground team provides real-time support, expert guides, and logistical coordination.</p>
