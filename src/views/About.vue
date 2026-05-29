@@ -1,6 +1,7 @@
 <template>
   <!-- HERO SECTION -->
-  <section class="relative h-[85vh] bg-cover bg-center flex items-center justify-center tracking-tight" style="background-image: url('/cvt.png');">
+  <section class="relative h-[85vh] bg-cover bg-center flex items-center justify-center tracking-tight" 
+  style="background-image: url('/cvt.png');">
     <!-- Overlay -->
     <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/55 to-black/45"></div>
     
