@@ -14,63 +14,73 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto pb-24">
       
       <!-- Card 1: Volcanoes National Park -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">🦍</div>
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Volcanoes National Park" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Volcanoes National Park</h3>
           <p class="text-sm text-green-800 font-medium">Venture deep into the misty, high-altitude forests to stand face-to-face with rare and majestic mountain gorillas.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          Track Gorillas
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm">
+            Track Gorillas
+          </button>
+        </div>
       </div>
 
       <!-- Card 2: Nyungwe Forest -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">🌱</div>
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Nyungwe Forest" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Nyungwe Forest</h3>
           <p class="text-sm text-green-800 font-medium">Hike high above an ancient rainforest canopy and explore rich biodiverse trails packed with rare primates.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          Walk Canopy
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm">
+            Walk Canopy
+          </button>
+        </div>
       </div>
 
       <!-- Card 3: Akagera National Park -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">🦁</div>
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Akagera National Park" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Akagera National Park</h3>
           <p class="text-sm text-green-800 font-medium">Head east to witness the Big Five roaming freely across expansive wetlands and wild savannah plains.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          Start Safari
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm">
+            Start Safari
+          </button>
+        </div>
       </div>
 
       <!-- Card 4: Kigali City -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">🇷🇼</div>
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Kigali City" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Kigali City</h3>
           <p class="text-sm text-green-800 font-medium">Discover exceptionally clean streets, vibrant local art galleries, and a rapidly booming culinary food scene.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          Explore City
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm">
+            Explore City
+          </button>
+        </div>
       </div>
 
       <!-- Card 5: King's Palace (Nyanza) -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">👑</div>
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Kings Palace" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">King's Palace</h3>
           <p class="text-sm text-green-800 font-medium">Journey south to Nyanza to connect directly with ancestral heritage, historical architecture, and rich traditions.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          Learn History
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm">
+            Learn History
+          </button>
+        </div>
       </div>
 
     </div>

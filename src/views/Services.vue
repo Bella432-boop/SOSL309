@@ -1,52 +1,58 @@
 <template>
-  <section class="bg-white text-green-600 min-h-screen w-full mt-12 flex flex-col items-center px-6 md:px-12">
+  <section class="bg-white text-green-600 min-h-screen w-full mt-12 px-6 md:px-12">
     <!-- Main Header -->
     <h1 class="text-5xl font-bold pt-24 pb-12 text-center tracking-tight">
-      These are the services that we offer
+      For any service, contact us for more info.
     </h1>
     
     <!-- Original Description Paragraph -->
     <p class="text-lg font-bold pb-16 text-center max-w-4xl mx-auto leading-relaxed">
-      Discover how our tailored solutions can help you grow, streamline your operations, and achieve your goals.
+      Whether you are planning an unforgettable safari, looking for custom travel packages, or need assistance exploring Rwanda, our team is available to assist you every step of the way. Response time: Within 24 hours
     </p>
 
-    <!-- Majestic Core Services Section -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl w-full mx-auto pb-24">
+    <!-- Majestic Service Cards Section -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto pb-24">
       
-      <!-- Card 1: Growth Strategies -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">🚀</div>
-          <h3 class="text-2xl font-bold mb-3">Tailored Growth</h3>
-          <p class="text-sm text-green-800 font-medium">Unlock new potential and expand your horizons with custom strategies designed specifically to accelerate your market reach.</p>
+      <!-- Card 1: Safaris -->
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Safari Experience" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
+          <h3 class="text-2xl font-bold mb-3">Unforgettable Safaris</h3>
+          <p class="text-sm text-green-800 font-medium">Experience majestic wildlife encounters, gorilla trekking adventures, and breathtaking landscapes across Rwanda's finest national parks.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          Scale Now
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full bg-green-600 text-white font-bold py-2.5 px-5 rounded-xl hover:bg-green-700 transition-colors text-sm">
+            Book Safari
+          </button>
+        </div>
       </div>
 
-      <!-- Card 2: Streamlined Operations -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">⚙️</div>
-          <h3 class="text-2xl font-bold mb-3">Optimize Operations</h3>
-          <p class="text-sm text-green-800 font-medium">Eliminate friction, boost internal efficiency, and build highly reliable workflows that optimize your everyday performance.</p>
+      <!-- Card 2: Custom Packages -->
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Custom Packages" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
+          <h3 class="text-2xl font-bold mb-3">Custom Packages</h3>
+          <p class="text-sm text-green-800 font-medium">Tailor-made itineraries designed specifically for your schedule, budget, and travel desires to create your perfect dream vacation.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          Streamline Systems
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full bg-green-600 text-white font-bold py-2.5 px-5 rounded-xl hover:bg-green-700 transition-colors text-sm">
+            Customize Trip
+          </button>
+        </div>
       </div>
 
-      <!-- Card 3: Goal Achievement -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">🎯</div>
-          <h3 class="text-2xl font-bold mb-3">Achieve Milestones</h3>
-          <p class="text-sm text-green-800 font-medium">Turn ambitious targets into clear results with measurable objectives and ongoing expert tactical support.</p>
+      <!-- Card 3: Local Assistance -->
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Local Assistance" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
+          <h3 class="text-2xl font-bold mb-3">Local Assistance</h3>
+          <p class="text-sm text-green-800 font-medium">Navigate Rwanda with ease. Our dedicated on-the-ground team provides real-time support, expert guides, and logistical coordination.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          Reach Goals
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full bg-green-600 text-white font-bold py-2.5 px-5 rounded-xl hover:bg-green-700 transition-colors text-sm">
+            Get Support
+          </button>
+        </div>
       </div>
 
     </div>

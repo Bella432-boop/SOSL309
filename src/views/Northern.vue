@@ -14,39 +14,45 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto pb-24">
       
       <!-- Card 1: Virunga Peaks -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">🌋</div>
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Virunga Peaks" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Virunga Peaks</h3>
           <p class="text-sm text-green-800 font-medium">Marvel at the majestic volcanic mountain range shaping the region's unique geography and rich volcanic soil conditions.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          Explore Peaks
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm">
+            Explore Peaks
+          </button>
+        </div>
       </div>
 
       <!-- Card 2: Mist-Covered Valleys -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">🌫️</div>
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Mist Valleys" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Mist-Covered Valleys</h3>
           <p class="text-sm text-green-800 font-medium">Immerse yourself in the coolest region of Rwanda, filled with lush agricultural hillsides and dramatic mountain landscapes.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          Discover Valleys
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm">
+            Discover Valleys
+          </button>
+        </div>
       </div>
 
       <!-- Card 3: High-Altitude Viewpoints -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">🦅</div>
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Scenic Viewpoints" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Scenic Viewpoints</h3>
           <p class="text-sm text-green-800 font-medium">Stand on striking horizons and take in some of the most spectacular, high-altitude panoramic vistas in East Africa.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          View Horizons
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm">
+            View Horizons
+          </button>
+        </div>
       </div>
 
     </div>

@@ -14,39 +14,45 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto pb-24">
       
       <!-- Card 1: City of Kigali -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">🏙️</div>
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Kigali City" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">City of Kigali</h3>
           <p class="text-sm text-green-800 font-medium">The geographic heart and central urban hub. The primary gateway connecting travelers to all four major provinces.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          Explore Hub
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm">
+            Explore Hub
+          </button>
+        </div>
       </div>
 
       <!-- Card 2: Southern Interior -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">👑</div>
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Southern Interior" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Southern Interior</h3>
           <p class="text-sm text-green-800 font-medium">Nestled within beautiful rolling hills. Home to historical landmarks, heritage sites, and cultural experiences.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          Discover Culture
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm">
+            Discover Culture
+          </button>
+        </div>
       </div>
 
       <!-- Card 3: Eastern Border -->
-      <div class="border-2 border-green-600 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <div>
-          <div class="text-4xl mb-4">🌅</div>
+      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
+        <img src="https://placehold.co" alt="Eastern Border" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Eastern Border</h3>
           <p class="text-sm text-green-800 font-medium">Flat terrains with expansive wetlands, low-lying lakes, and protected majestic savannah environments.</p>
         </div>
-        <button class="mt-6 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm self-start">
-          View Savannah
-        </button>
+        <div class="px-8 pb-8">
+          <button class="w-full border border-green-600 text-green-600 hover:bg-green-600 hover:text-white font-bold py-2 px-4 rounded-xl transition-colors text-sm">
+            View Savannah
+          </button>
+        </div>
       </div>
 
     </div>
