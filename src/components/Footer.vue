@@ -28,7 +28,7 @@
         <h3 class="text-yellow-300 font-bold text-lg mb-3"> Contacts</h3>
         <ul class="space-y-2 text-green-300 text-sm">
             <li>Email: infoTour@tembera.rw</li>
-            <li>Phone: +250 788 123 456</li>
+            <li>Phone: +250 736 768 695</li>
             <li>Address: Kigali, Rwanda</li>
         </ul>
     </div>
