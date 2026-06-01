@@ -1,58 +1,5 @@
 <script setup>
-import { ref } from 'vue'
-
-const currentLang = ref('en')
-
-const translations = {
-  en: {
-    title: "Discover the beauty of Rwanda",
-    subtitle: "Explore the wonders of Rwanda with our comprehensive travel guide.",
-    btnExplore: "Explore",
-    btnLearn: "Learn More",
-    destTitle: "Destinations",
-    destDesc: "Explore breathtaking volcanic landscapes, rolling hills, and vibrant cities.",
-    wildTitle: "Wildlife",
-    wildDesc: "Meet the majestic animals safely tucked in their natural habitat.",
-    cultTitle: "Culture",
-    cultDesc: "Experience rich traditional music, elegant dance, and local heritage."
-  },
-  fr: {
-    title: "Découvrez la beauté du Rwanda",
-    subtitle: "Explorez les merveilles du Rwanda avec notre guide de voyage complet.",
-    btnExplore: "Explorer",
-    btnLearn: "En savoir plus",
-    destTitle: "Destinations",
-    destDesc: "Explorez des paysages volcaniques à couper le souffle, des collines naissantes naissantes et des villes vibrantes.",
-    wildTitle: "Faune",
-    wildDesc: "Rencontrez les majestueux animaux en toute sécurité dans leur habitat naturel.",
-    cultTitle: "Culture",
-    cultDesc: "Découvrez une musique traditionnelle riche, des danses élégantes et le patrimoine local."
-  },
-  rw: {
-    title: "Vumbura ubwiza bw'u Rwanda",
-    subtitle: "Sura ibitangaza by'u Rwanda ukoresheje amakuru arambuye y'urugendo rwacu.",
-    btnExplore: "Tembera",
-    btnLearn: "Menya Amakuru",
-    destTitle: "Ahantu hasurwa",
-    destDesc: "Sura ibirunga bitangaje, imisozi miremire, n'imijyi ishabutse.",
-    wildTitle: "Inyamaswa",
-    wildDesc: "Sura inyamaswa zisanzuye mu ndiri yazo karemano.",
-    cultTitle: "Umuco",
-    cultDesc: "Inovore umuziki gakondo ukize, imbyino nziza, n'umuco wacu w'umwimerere."
-  },
-  sw: {
-    title: "Gundua uzuri wa Rwanda",
-    subtitle: "Gundua maajabu ya Rwanda kwa mwongozo wetu wa kina wa kusafiri.",
-    btnExplore: "Gundua",
-    btnLearn: "Jifunze Zaidi",
-    destTitle: "Maeneo",
-    destDesc: "Gundua mandhari ya kuvutia ya volkano, milima yenye upepo, na miji yenye nguvu.",
-    wildTitle: "Wanyamapori",
-    wildDesc: "Kutana wanyama adhimu walio salama katika makazi yao ya asili.",
-    cultTitle: "Utamaduni",
-    cultDesc: "Uzoefu wa muziki wa kitamaduni tajiri, ngoma za kifahari, na urithi wa wenyeji."
-  }
-}
+import { currentLang, translations } from '../langStore'
 </script>
 
 <template>

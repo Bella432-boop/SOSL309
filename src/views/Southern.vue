@@ -16,7 +16,7 @@
       <!-- Card 1: Cultural Heritage -->
       <div class="group border-2 border-green-600 rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 flex flex-col justify-between bg-emerald-50/30 backdrop-blur-sm">
         <div class="relative overflow-hidden">
-          <img src="https://unsplash.com" alt="Rwandan Cultural Intore Dance" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-95 group-hover:brightness-100" />
+          <img src="/INYAMBO.jpg" alt="Rwandan Cultural Intore Dance" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-95 group-hover:brightness-100" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
             <span class="text-white text-xs font-bold uppercase tracking-widest animate-pulse">Experience Culture</span>
           </div>
@@ -35,7 +35,7 @@
       <!-- Card 2: Breathtaking Hills -->
       <div class="group border-2 border-green-600 rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 flex flex-col justify-between bg-emerald-50/30 backdrop-blur-sm">
         <div class="relative overflow-hidden">
-          <img src="https://unsplash.com" alt="Sweeping green terraced hills" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-95 group-hover:brightness-100" />
+          <img src="/Rda.png" alt="Sweeping green terraced hills" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-95 group-hover:brightness-100" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
             <span class="text-white text-xs font-bold uppercase tracking-widest animate-pulse">View Landscapes</span>
           </div>
@@ -54,7 +54,7 @@
       <!-- Card 3: Historic Landmarks -->
       <div class="group border-2 border-green-600 rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 flex flex-col justify-between bg-emerald-50/30 backdrop-blur-sm">
         <div class="relative overflow-hidden">
-          <img src="https://unsplash.com" alt="Ancient pathways and structures" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-95 group-hover:brightness-100" />
+          <img src="/cvt.png" alt="Ancient pathways and structures" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-95 group-hover:brightness-100" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
             <span class="text-white text-xs font-bold uppercase tracking-widest animate-pulse">Uncover History</span>
           </div>

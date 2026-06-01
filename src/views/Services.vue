@@ -1,60 +1,53 @@
 <template>
-  <section class="bg-white text-green-600 min-h-screen w-full mt-12 px-6 md:px-12">
-    <!-- Main Header -->
-    <h1 class="text-5xl font-bold pt-24 pb-12 text-center tracking-tight">
-      For any service, contact us for more info.
-    </h1>
-    
-    <!-- Original Description Paragraph -->
-    <p class="text-lg font-bold pb-16 text-center max-w-4xl mx-auto leading-relaxed">
-      Whether you are planning an unforgettable safari, looking for custom travel packages, or need assistance exploring Rwanda, our team is available to assist you every step of the way. Response time: Within 24 hours
-    </p>
+  <section class="relative min-h-screen w-full mt-12">
+    <div class="absolute inset-0 bg-fixed bg-cover bg-center" style="background-image: url('/src/assets/images/Stadium.png');"></div>
+    <div class="absolute inset-0 bg-black/55"></div>
 
-    <!-- Majestic Service Cards Section -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto pb-24">
-      
-      <!-- Card 1: Safaris -->
-      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <img src="/src/assets/images/Wildlife.png" alt="Safari Experience" class="w-full h-48 object-cover border-b-2 border-green-600" />
-        <div class="p-8 flex-grow">
-          <h3 class="text-2xl font-bold mb-3">Unforgettable Safaris</h3>
-          <p class="text-sm text-green-800 font-medium">Experience majestic wildlife encounters, gorilla trekking adventures, and breathtaking landscapes across Rwanda's finest national parks.</p>
-        </div>
-        <div class="px-8 pb-8">
-          <button class="w-full bg-green-600 text-white font-bold py-2.5 px-5 rounded-xl hover:bg-green-700 transition-colors text-sm">
-            Book Safari
-          </button>
-        </div>
+    <div class="relative z-10 text-white px-6 md:px-12 py-24">
+      <div class="max-w-5xl mx-auto text-center mb-16">
+        <h1 class="text-5xl md:text-6xl font-bold tracking-tight drop-shadow-lg">Services built for your Rwanda journey</h1>
+        <p class="text-base md:text-lg text-slate-200/90 mt-6 leading-relaxed">
+          From safari planning and custom itineraries to local support and guided tours, our services make every trip to Rwanda unforgettable.
+        </p>
       </div>
 
-      <!-- Card 2: Custom Packages -->
-      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <img src="/INYAMBO.jpg" alt="Custom Packages" class="w-full h-48 object-cover border-b-2 border-green-600" />
-        <div class="p-8 flex-grow">
-          <h3 class="text-2xl font-bold mb-3">Custom Packages</h3>
-          <p class="text-sm text-green-800 font-medium">Tailor-made itineraries designed specifically for your schedule, budget, and travel desires to create your perfect dream vacation.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div class="border border-white/20 rounded-3xl overflow-hidden shadow-2xl bg-white/10 backdrop-blur-lg hover:bg-white/20 transition duration-500">
+          <div class="h-72 overflow-hidden relative">
+            <img src="/src/assets/images/Wildlife.png" alt="Safari Experience" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent"></div>
+          </div>
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-3">Unforgettable Safaris</h3>
+            <p class="text-slate-200 text-sm leading-relaxed">Experience nature at its finest with gorilla trekking, wildlife safaris, and expertly guided national park tours.</p>
+            <button class="mt-8 w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-full font-semibold transition">Book Safari</button>
+          </div>
         </div>
-        <div class="px-8 pb-8">
-          <button class="w-full bg-green-600 text-white font-bold py-2.5 px-5 rounded-xl hover:bg-green-700 transition-colors text-sm">
-            Customize Trip
-          </button>
+
+        <div class="border border-white/20 rounded-3xl overflow-hidden shadow-2xl bg-white/10 backdrop-blur-lg hover:bg-white/20 transition duration-500">
+          <div class="h-72 overflow-hidden relative">
+            <img src="/src/assets/images/Rwanda.png" alt="Custom Packages" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent"></div>
+          </div>
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-3">Custom Packages</h3>
+            <p class="text-slate-200 text-sm leading-relaxed">Tailored travel plans for families, adventure seekers, honeymooners, and culture fans.</p>
+            <button class="mt-8 w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-full font-semibold transition">Customize Trip</button>
+          </div>
+        </div>
+
+        <div class="border border-white/20 rounded-3xl overflow-hidden shadow-2xl bg-white/10 backdrop-blur-lg hover:bg-white/20 transition duration-500">
+          <div class="h-72 overflow-hidden relative">
+            <img src="/src/assets/images/Destinations.png" alt="Local Assistance" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent"></div>
+          </div>
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-3">Local Assistance</h3>
+            <p class="text-slate-200 text-sm leading-relaxed">Get support during your journey with local guides, transport help, and real-time travel advice.</p>
+            <button class="mt-8 w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-full font-semibold transition">Get Support</button>
+          </div>
         </div>
       </div>
-
-      <!-- Card 3: Local Assistance -->
-      <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <img src="/src/assets/images/Rwanda.png" alt="Local Assistance" class="w-full h-48 object-cover border-b-2 border-green-600" />
-        <div class="p-8 flex-grow">
-          <h3 class="text-2xl font-bold mb-3">Local Assistance</h3>
-          <p class="text-sm text-green-800 font-medium">Navigate Rwanda with ease. Our dedicated on-the-ground team provides real-time support, expert guides, and logistical coordination.</p>
-        </div>
-        <div class="px-8 pb-8">
-          <button class="w-full bg-green-600 text-white font-bold py-2.5 px-5 rounded-xl hover:bg-green-700 transition-colors text-sm">
-            Get Support
-          </button>
-        </div>
-      </div>
-
     </div>
   </section>
 </template>

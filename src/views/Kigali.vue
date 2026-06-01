@@ -48,8 +48,7 @@
       <!-- Card 3: Sustainable Development -->
       <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30 group">
         <div class="overflow-hidden h-48 border-b-2 border-green-600">
-          <img src="/Modern progress.png
-          " alt="Modern Progress" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+          <img src="/Modern progress.png" alt="Modern Progress" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
         </div>
         <div class="p-8">
           <h3 class="text-2xl font-bold mb-3">Modern Progress</h3>

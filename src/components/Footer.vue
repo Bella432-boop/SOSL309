@@ -6,6 +6,7 @@
     <p class="text-sm text-green-200"> Discover the beauty of the land of a thousand hills.</p>
     </div>
     <div>
+        <!-- Quick links -->
     <h3 class="text-yellow-300 font-bold text-lg mb-3"> Quick Links</h3>
     <ul class="space-y-2 text-sm">
         <li><RouterLink to="/" class="hover:text-yellow-300">Home</RouterLink></li>
@@ -33,6 +34,7 @@
         </ul>
     </div>
     </div>
+    <!-- Copyright -->
     <div class="border-t border-green-600 mt-8 pt-4 text-sm text-green-300">
    <p class=" text-center"> &copy; 2025 Tembera U Rwanda. All rights reserved.©</p>
     </div>

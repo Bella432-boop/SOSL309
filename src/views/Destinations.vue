@@ -1,4 +1,12 @@
 <template>
+  <section class="relative h-[32rem] md:h-[36rem] bg-cover bg-center flex items-center justify-center text-white" style="background-image: url('/src/assets/images/Stadium.png');">
+    <div class="absolute inset-0 bg-black/60"></div>
+    <div class="relative z-10 text-center px-6 max-w-4xl">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Destinations</h1>
+      <p class="text-base md:text-lg text-slate-200 max-w-2xl mx-auto">Explore Rwanda’s most beautiful regions and find the perfect landscapes to visit.</p>
+    </div>
+  </section>
+
   <section class="bg-white text-green-600 min-h-screen w-full mt-12 px-6 md:px-12">
     <!-- Main Header -->
     <h1 class="text-5xl font-bold pt-24 pb-12 text-center tracking-tight animate-fade-in-up">

@@ -15,7 +15,7 @@
       
       <!-- Card 1: Lake Kivu Shores -->
       <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <img src="https://placeholder.com" alt="Lake Kivu Shores" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <img src="/lake kivu.png" alt="Lake Kivu Shores" class="w-full h-48 object-cover border-b-2 border-green-600" />
         <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Lake Kivu Shores</h3>
           <p class="text-sm text-green-800 font-medium">Relax along breathtaking, pristine resort coastlines where dramatic rolling hills gracefully meet peaceful, sprawling waters.</p>
@@ -29,7 +29,7 @@
 
       <!-- Card 2: Scenic Tea Plantations -->
       <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <img src="https://placeholder.com" alt="Tea Plantations" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <img src="/Scenic ridges.png" alt="Tea Plantations" class="w-full h-48 object-cover border-b-2 border-green-600" />
         <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Tea Plantations</h3>
           <p class="text-sm text-green-800 font-medium">Wander through massive, beautifully terraced fields of vibrant green tea sweeping down spectacular high-altitude slopes.</p>
@@ -43,7 +43,7 @@
 
       <!-- Card 3: Lakeside Communities -->
       <div class="border-2 border-green-600 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col justify-between bg-emerald-50/30">
-        <img src="https://placeholder.com" alt="Lakeside Culture" class="w-full h-48 object-cover border-b-2 border-green-600" />
+        <img src="/INYAMBO.jpg" alt="Lakeside Culture" class="w-full h-48 object-cover border-b-2 border-green-600" />
         <div class="p-8 flex-grow">
           <h3 class="text-2xl font-bold mb-3">Lakeside Culture</h3>
           <p class="text-sm text-green-800 font-medium">Immerse yourself in active, welcoming towns filled with traditional fishing cultures, markets, and water adventures.</p>

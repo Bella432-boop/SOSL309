@@ -16,7 +16,7 @@
       <!-- Card 1: Virunga Peaks -->
       <div class="group border-2 border-green-600 rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 flex flex-col justify-between bg-emerald-50/30 backdrop-blur-sm">
         <div class="relative overflow-hidden">
-          <img src="https://unsplash.com" alt="Virunga Volcanic Peaks" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-95 group-hover:brightness-100" />
+          <img src="/Kong.png" alt="Virunga Volcanic Peaks" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-95 group-hover:brightness-100" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
             <span class="text-white text-xs font-bold uppercase tracking-widest animate-pulse">Explore Volcanoes</span>
           </div>
@@ -35,7 +35,7 @@
       <!-- Card 2: Mist-Covered Valleys -->
       <div class="group border-2 border-green-600 rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 flex flex-col justify-between bg-emerald-50/30 backdrop-blur-sm">
         <div class="relative overflow-hidden">
-          <img src="https://unsplash.com" alt="Mist covered highlands" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-95 group-hover:brightness-100" />
+          <img src="/Peace.png" alt="Mist covered highlands" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-95 group-hover:brightness-100" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
             <span class="text-white text-xs font-bold uppercase tracking-widest animate-pulse">Discover Mist</span>
           </div>
@@ -54,7 +54,7 @@
       <!-- Card 3: High-Altitude Viewpoints -->
       <div class="group border-2 border-green-600 rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 flex flex-col justify-between bg-emerald-50/30 backdrop-blur-sm">
         <div class="relative overflow-hidden">
-          <img src="https://unsplash.com" alt="Scenic high altitude horizons" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-95 group-hover:brightness-100" />
+          <img src="/Rda.png" alt="Scenic high altitude horizons" class="w-full h-56 object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-95 group-hover:brightness-100" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
             <span class="text-white text-xs font-bold uppercase tracking-widest animate-pulse">View Panoramas</span>
           </div>
