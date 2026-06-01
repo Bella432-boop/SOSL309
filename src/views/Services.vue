@@ -1,6 +1,6 @@
 <template>
   <section class="relative min-h-screen w-full mt-12">
-    <div class="absolute inset-0 bg-fixed bg-cover bg-center" style="background-image: url('/src/assets/images/Stadium.png');"></div>
+    <div class="absolute inset-0 bg-fixed bg-cover bg-center" style="background-image: url('/src/assets/images/Culture.png');"></div>
     <div class="absolute inset-0 bg-black/55"></div>
 
     <div class="relative z-10 text-white px-6 md:px-12 py-24">
