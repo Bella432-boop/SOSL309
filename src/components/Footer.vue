@@ -36,7 +36,7 @@
     </div>
     <!-- Copyright -->
     <div class="border-t border-green-600 mt-8 pt-4 text-sm text-green-300">
-   <p class=" text-center"> &copy; 2025 Tembera U Rwanda. All rights reserved.©</p>
+   <p class=" text-center"> &copy; 2025 Tembera U Rwanda. All rights reserved.© Done by Bella Joyce</p>
     </div>
 
     </footer>
