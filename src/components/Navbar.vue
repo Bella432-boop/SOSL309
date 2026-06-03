@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from 'vue-router'
 import { currentLang, translations, setLanguage } from '../langStore'
 </script>
 
@@ -35,6 +36,8 @@ import { currentLang, translations, setLanguage } from '../langStore'
                          </ul> 
                     </li>
                        <li> <a href="/contacts" class="hover:text-yellow-300">{{ translations[currentLang].contacts }}</a></li> 
+
+                       <li> <RouterLink to="/login" class="bg-yellow-400 hover:bg-white/30 px-4 py-1 rounded font-semibold hover:bg-yellow-300">Login</RouterLink> </li>
 
                        <!-- Language Selector -->
                        <li class="relative group ml-4">

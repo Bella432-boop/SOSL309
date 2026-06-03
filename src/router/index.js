@@ -1,5 +1,6 @@
 
 import { createRouter, createWebHistory } from 'vue-router'
+import Dashboard from "../views/Dashboard/Dashboard.vue"
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Services  from '../views/Services.vue';
@@ -11,6 +12,8 @@ import Northern from '../views/Northern.vue';
 import Southern from '../views/Southern.vue';
 import Eastern from '../views/Eastern.vue';
 import Western from '../views/Western.vue';
+import Register from '../views/Register.vue';
+import Login from '../views/Login.vue';
 
 const routes = [
   {
@@ -64,6 +67,21 @@ const routes = [
     name: 'western',
     component: Western     
 
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: Login
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: Register
+  },
+    {
+    path: '/dashboard',
+    name: 'Dashboard',
+    component: Dashboard,
   }
 ]
 
